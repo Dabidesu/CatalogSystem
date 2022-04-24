@@ -110,35 +110,35 @@
                 <div class="blog-slider__wrp swiper-wrapper">
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img"><img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"></div>
-                        <div class="blog-slider__content"><span class="blog-slider__code">26 December 2019</span>
+                        <div class="blog-slider__content"><span class="blog-slider__code">24 04 April 2022</span>
                             <div class="blog-slider__title">
-                                <p>Lorem Ipsum Dolor</p>
+                                <p>Fresh Management</p>
                             </div>
                             <div class="blog-slider__text">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</p>
-                            </div><a class="blog-slider__button" href="#">READ MORE</a>
+                                <p>We have established some systematic rules for our new employees and provide enough equipments!</p>
+                            </div><a class="blog-slider__button" href="#">TBA</a>
                         </div>
                     </div>
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img"><img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"></div>
-                        <div class="blog-slider__content"><span class="blog-slider__code">26 December 2019</span>
+                        <div class="blog-slider__content"><span class="blog-slider__code">24 04 April 2022</span>
                             <div class="blog-slider__title">
-                                <p>Lorem Ipsum Dolor</p>
+                                <p>New arrivals of NUC and ITX pre-built models</p>
                             </div>
                             <div class="blog-slider__text">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</p>
-                            </div><a class="blog-slider__button" href="#">READ MORE</a>
+                                <p>ASUS NUCS are now available! ITX models for Dell and Acer are here!</p>
+                            </div><a class="blog-slider__button" href="#">TBA</a>
                         </div>
                     </div>
                     <div class="blog-slider__item swiper-slide">
                         <div class="blog-slider__img"><img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"></div>
-                        <div class="blog-slider__content"><span class="blog-slider__code">26 December 2019</span>
+                        <div class="blog-slider__content"><span class="blog-slider__code">24 04 April 2022</span>
                             <div class="blog-slider__title">
-                                <p>Lorem Ipsum Dolor</p>
+                                <p>Delivery method still on experimental</p>
                             </div>
                             <div class="blog-slider__text">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</p>
-                            </div><a class="blog-slider__button" href="#">READ MORE</a>
+                                <p>Don't worry, we are enhancing your experience for delivery services!</p>
+                            </div><a class="blog-slider__button" href="#">TBA</a>
                         </div>
                     </div>
                 </div>
