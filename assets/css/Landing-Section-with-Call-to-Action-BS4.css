@@ -68,7 +68,7 @@ a:hover, a:focus {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover, .open > .btn-primary.dropdown-toggle, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle:hover {
   /*background-color: transparent;*/
-  /*color: #f01d1d;*/
+  color: #f01d1d;
   /*border-color: #f01d1d;*/
 }
 
