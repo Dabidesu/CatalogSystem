@@ -66,7 +66,7 @@
         <h1 style="background: url(&quot;https://cdn.discordapp.com/attachments/968051049820721163/968058364259090442/finaru.jpg&quot;) left / contain;height: 583.3906px;margin-top: 0;padding-top: 240px;text-shadow: 7px 16px 14px var(--swiper-theme-color);font-size: 86px;font-weight: bold;color: rgb(128,148,222);margin-bottom: -17px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;OUR COMPANY</h1>
         <div class="container" style="width: 1371px;margin-right: 361px;">
             <p style="margin-top: 39px;font-size: 37px;width: 1492px;text-align: justify;margin-right: 0;background: #ededed;padding: 50px;padding-top: 50px;"><strong><em>AGNORIA&nbsp;</em></strong>was founded in 2022 by Miguel Agno.&nbsp;Interested on&nbsp;starting a new business venture. He was planning on creating a&nbsp;distributing company focused on small form factor PCs—these&nbsp;include Raspberry Pi, Arduino and ITX products—thus, the&nbsp;company was formed under his name. As a distributor company,&nbsp;we in AGNORIA pursue reliability and availability.&nbsp;​<br></p>
-        </div><button class="btn btn-primary" type="button" style="font-size: 40px;">Want to be a part of our company, click here!</button>
+        </div><button class="btn btn-primary" type="button" style="font-size: 40px;"><a href="ContactUs.php">Want to be a part of our company, click here!</a></button>
     </section>
     <section class="showcase">
         <div class="container-fluid p-0">
