@@ -91,9 +91,9 @@
 }
 
 .btn.focus, .btn:focus, .btn:hover {
-  color: #ffffff;
+  color: #17256f;
   text-decoration: none;
-  background-color: #1485ee;
+  background-color: #4a6a88;
   border: none;
 }
 

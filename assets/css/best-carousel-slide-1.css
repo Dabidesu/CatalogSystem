@@ -9,15 +9,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image: url('../../assets/img/maniwp.jpg');
+  background-image: url('../../assets/img/architect-at-the-construction.jpg');
 }
 
 div.jumbotron.hero-photography {
-  background-image: url('../../assets/img/FireCuda_1920x700px_c.jpg');
+  background-image: url('../../assets/img/architects-and-worker.jpg');
 }
 
 div.jumbotron.hero-technology {
-  background-image: url('../../assets/img/AMD-Windows-11-Raffle-1920-x-700-1.jpg');
+  background-image: url('../../assets/img/young-college-students.jpg');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
@@ -41,14 +41,14 @@ p.hero-subtitle {
 }
 
 .btn-primary:hover {
-  color: #acbac6;
+  color: #fff;
   background-color: #016090;
   border-color: #016090;
 }
 
 .btn.btn-primary {
-  background-color: #270c74!important;
-  border-color: #ffffff!important;
+  background-color: #048f83!important;
+  border-color: #048f83!important;
 }
 
 .btn-primary.focus, .btn-primary:focus {
