@@ -48,11 +48,11 @@
                             <div class="dropdown-menu"><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Mini PC</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Single-Board Computers</a></div>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-gray-500);">PC Builder</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html" style="color: rgba(224,217,217,0.9);">About </a></li>
-                        <li class="nav-item"><a class="nav-link" href="faq.html" style="color: rgba(224,217,217,0.9);">FAQs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html" style="color: rgba(224,217,217,0.9);">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="About.php" style="color: rgba(224,217,217,0.9);">About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="FAQ.php" style="color: rgba(224,217,217,0.9);">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ContactUs.php" style="color: rgba(224,217,217,0.9);">Contact</a></li>
                     </ul>
-                    <p class="ms-auto navbar-text actions"><a class="login" href="index.html" style="color: rgba(224,217,217,0.9);">Log In</a> <a class="btn btn-light action-button" role="button" href="registration.html" style="color: rgba(0,0,0,0.9);background: var(--bs-gray-200);border-radius: 10px;border-style: solid;border-color: rgba(0,0,0,0.9);font-size: 16px;padding: 5px 8px;">Sign Up</a></p>
+                    <p class="ms-auto navbar-text actions"><a class="login" href="UserLogin.php" style="color: rgba(224,217,217,0.9);">Log In</a> <a class="btn btn-light action-button" role="button" href="UserRegister.php" style="color: rgba(0,0,0,0.9);background: var(--bs-gray-200);border-radius: 10px;border-style: solid;border-color: rgba(0,0,0,0.9);font-size: 16px;padding: 5px 8px;">Sign Up</a></p>
                 </div>
             </div>
         </nav>
@@ -179,26 +179,26 @@
                         <div class="col-12 col-sm-6 col-md-2">
                             <h5>Get started</h5>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="LandingPage.php">Home</a></li>
                                 <li><a href="#">Catalog<br></a></li>
-                                <li><a href="#">Sign Up</a></li>
-                                <li><a href="#">Promos/Other</a></li>
+                                <li><a href="UserRegister.php">Sign Up</a></li>
+                                <li><a href="PromoPage.php">Promos/Other</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-sm-6 col-md-2">
                             <h5>Our Company</h5>
                             <ul>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="About.php">About Us</a></li>
                                 <li><a href="#"></a></li>
-                                <li><a href="#">Reviews</a></li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="LandingPage.php">Reviews</a></li>
+                                <li><a href="ContactUs.php">Contacts</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-2">
                             <h5>Support</h5>
                             <ul>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Help Desk<br></a></li>
+                                <li><a href="FAQ.php">FAQ</a></li>
+                                <li><a href="ConctactUs.php">Help Desk<br></a></li>
                                 <li>Forums[TBA]</li>
                                 <li><a href="#">External Links</a></li>
                             </ul>
