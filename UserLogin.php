@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>User Login</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap">
@@ -55,11 +55,11 @@
                             <div class="dropdown-menu"><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Mini PC</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Single-Board Computers</a></div>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-gray-500);">PC Builder</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html" style="color: rgba(224,217,217,0.9);">About </a></li>
-                        <li class="nav-item"><a class="nav-link" href="faq.html" style="color: rgba(224,217,217,0.9);">FAQs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html" style="color: rgba(224,217,217,0.9);">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="About.php" style="color: rgba(224,217,217,0.9);">About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="FAQ.php" style="color: rgba(224,217,217,0.9);">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ContactUs.php" style="color: rgba(224,217,217,0.9);">Contact</a></li>
                     </ul>
-                    <p class="ms-auto navbar-text actions"><a class="login" href="index.html" style="color: rgba(224,217,217,0.9);">Log In</a> <a class="btn btn-light action-button" role="button" href="registration.html" style="color: rgba(0,0,0,0.9);background: var(--bs-gray-200);border-radius: 10px;border-style: solid;border-color: rgba(0,0,0,0.9);font-size: 16px;padding: 5px 8px;">Sign Up</a></p>
+                    <p class="ms-auto navbar-text actions"><a class="login" href="UserLogin.php" style="color: rgba(224,217,217,0.9);">Log In</a> <a class="btn btn-light action-button" role="button" href="UserRegister.php" style="color: rgba(0,0,0,0.9);background: var(--bs-gray-200);border-radius: 10px;border-style: solid;border-color: rgba(0,0,0,0.9);font-size: 16px;padding: 5px 8px;">Sign Up</a></p>
                 </div>
             </div>
         </nav>
@@ -68,9 +68,9 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="login-card" style="height: 463.797px;"><img class="profile-img-card" src="assets/img/avatar_2x.png">
                         <h1 style="color: rgb(0,0,0);font-size: 24px;">Login</h1>
-                        <form class="form-signin"><span class="reauth-email"> </span><input class="form-control" type="text" id="inputUsername" required="" placeholder="Username" autofocus="" name="username"><input class="form-control" type="password" id="inputPassword" required="" placeholder="Password" name="password">
+                        <form class="form-signin" action="checkLogin.php" method="POST"><span class="reauth-email"> </span><input class="form-control" type="text" id="inputUsername" required="" placeholder="Username" autofocus="" name="username"><input class="form-control" type="password" id="inputPassword" required="" placeholder="Password" name="password">
                             <div class="checkbox"></div><button class="btn btn-primary btn-lg d-block btn-signin w-100" type="submit">Login</button>
-                        </form><a class="forgot-password" href="register.php">Not a member? Register here.</a>
+                        </form><a class="forgot-password" href="UserRegister.php">Not a member? Register here.</a>
                         <div class="row">
                             <div class="col"><a href="AdminLogin.php" style="color: rgba(198,28,28,0.96);">Admin Access&nbsp;</a></div>
                         </div>
@@ -134,26 +134,26 @@
                         <div class="col-12 col-sm-6 col-md-2">
                             <h5>Get started</h5>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="LandingPage.php">Home</a></li>
                                 <li><a href="#">Catalog<br></a></li>
-                                <li><a href="#">Sign Up</a></li>
-                                <li><a href="#">Promos/Other</a></li>
+                                <li><a href="UserRegister.php">Sign Up</a></li>
+                                <li><a href="PromoPage.php">Promos/Other</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-sm-6 col-md-2">
                             <h5>Our Company</h5>
                             <ul>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="About.php">About Us</a></li>
                                 <li><a href="#"></a></li>
-                                <li><a href="#">Reviews</a></li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="LandingPage.php">Reviews</a></li>
+                                <li><a href="ContactUs.php">Contacts</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-2">
                             <h5>Support</h5>
                             <ul>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Help Desk<br></a></li>
+                                <li><a href="FAQ.php">FAQ</a></li>
+                                <li><a href="ConctactUs.php">Help Desk<br></a></li>
                                 <li>Forums[TBA]</li>
                                 <li><a href="#">External Links</a></li>
                             </ul>
