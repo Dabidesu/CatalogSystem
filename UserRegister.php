@@ -68,9 +68,9 @@
                 <div class="col-md-6 col-xl-4">
                     <div class="login-card" style="height: 463.797px;"><img class="profile-img-card" src="assets/img/avatar_2x.png">
                         <h1 style="color: rgb(0,0,0);font-size: 24px;">Register</h1>
-                        <form class="form-signin"><span class="reauth-email"> </span><input class="form-control" type="text" id="inputUsername" required="" placeholder="Username" autofocus="" name="username"><input class="form-control" type="password" id="inputPassword" required="" placeholder="Password" name="password">
+                        <form class="form-signin" action="Register.php" method="POST"><span class="reauth-email"> </span><input class="form-control" type="text" id="inputUsername" required="" placeholder="Username" autofocus="" name="username"><input class="form-control" type="password" id="inputPassword" required="" placeholder="Password" name="password">
                             <div class="checkbox"></div><button class="btn btn-primary btn-lg d-block btn-signin w-100" type="submit">Sign in</button>
-                        </form><a class="forgot-password" href="register.php">Have an account? Login here</a>
+                        </form><a class="forgot-password" href="UserRegister.php">Have an account? Login here</a>
                     </div>
                 </div>
                 <div class="col-md-6">
