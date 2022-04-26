@@ -134,26 +134,26 @@
                         <div class="col-12 col-sm-6 col-md-2">
                             <h5>Get started</h5>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="LandingPage.php">Home</a></li>
                                 <li><a href="#">Catalog<br></a></li>
-                                <li><a href="#">Sign Up</a></li>
-                                <li><a href="#">Promos/Other</a></li>
+                                <li><a href="UserRegister.php">Sign Up</a></li>
+                                <li><a href="PromoPage.php">Promos/Other</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-sm-6 col-md-2">
                             <h5>Our Company</h5>
                             <ul>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="About.php">About Us</a></li>
                                 <li><a href="#"></a></li>
-                                <li><a href="#">Reviews</a></li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="LandingPage.php">Reviews</a></li>
+                                <li><a href="ContactUs.php">Contacts</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-2">
                             <h5>Support</h5>
                             <ul>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Help Desk<br></a></li>
+                                <li><a href="FAQ.php">FAQ</a></li>
+                                <li><a href="ConctactUs.php">Help Desk<br></a></li>
                                 <li>Forums[TBA]</li>
                                 <li><a href="#">External Links</a></li>
                             </ul>
