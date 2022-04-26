@@ -55,11 +55,11 @@
                             <div class="dropdown-menu"><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Mini PC</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Single-Board Computers</a></div>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-gray-500);">PC Builder</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html" style="color: rgba(224,217,217,0.9);">About </a></li>
-                        <li class="nav-item"><a class="nav-link" href="faq.html" style="color: rgba(224,217,217,0.9);">FAQs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html" style="color: rgba(224,217,217,0.9);">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="About.php" style="color: rgba(224,217,217,0.9);">About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="FAQ.php" style="color: rgba(224,217,217,0.9);">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ContactUs.php" style="color: rgba(224,217,217,0.9);">Contact</a></li>
                     </ul>
-                    <p class="ms-auto navbar-text actions"><a class="login" href="index.html" style="color: rgba(224,217,217,0.9);">Log In</a> <a class="btn btn-light action-button" role="button" href="registration.html" style="color: rgba(0,0,0,0.9);background: var(--bs-gray-200);border-radius: 10px;border-style: solid;border-color: rgba(0,0,0,0.9);font-size: 16px;padding: 5px 8px;">Sign Up</a></p>
+                    <p class="ms-auto navbar-text actions"><a class="login" href="UserLogin.php" style="color: rgba(224,217,217,0.9);">Log In</a> <a class="btn btn-light action-button" role="button" href="UserRegister.php" style="color: rgba(0,0,0,0.9);background: var(--bs-gray-200);border-radius: 10px;border-style: solid;border-color: rgba(0,0,0,0.9);font-size: 16px;padding: 5px 8px;">Sign Up</a></p>
                 </div>
             </div>
         </nav>
