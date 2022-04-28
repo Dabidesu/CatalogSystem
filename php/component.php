@@ -9,13 +9,14 @@
             echo "<i class=\"far fa-star\"></i>";
         }
     }
-
-    function component($productid, $productname, $productprice, $productimage, $productdescription) {
+    //<small><s>₱$productprice</s></small>
+    function component($productid, $productname, $productprice, $productimage, $productdescription, $productstock) {
         $discount_percentage = 10;
         $discount = ($productprice * $discount_percentage) / 100; //350
         $discounted_price = round($productprice - $discount);
+        $discounted_price = number_format(($discounted_price / 1), 2, '.', ',');
         $element = "
-        <div class=\"col-md-3 col-sm-6 my-3 my-md-0\">
+        <div class=\"col-md-3 col-sm-6 my-3 my-md-3 \">
             <form action=\"index.php\" method=\"post\">
                 <div class=\"card shadow\">
                     <div class=\"img-fluid img-thumbnail\">
@@ -34,8 +35,8 @@
                         -->
                         </h6>
                         <p class=\"card-text\">$productdescription</p>
+                        <p class=\"card-text text-danger\">In-stock: $productstock</p>
                         <h5>
-                            <small><s>₱$productprice</s></small>
                             <span class=\"price\">₱$discounted_price</span>
                         </h5>
 

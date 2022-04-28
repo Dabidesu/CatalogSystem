@@ -37,7 +37,8 @@ class createdb
                         prod_name VARCHAR(25) NOT NULL,
                         prod_price FLOAT,
                         prod_image VARCHAR(100),
-                        prod_desc VARCHAR(100)
+                        prod_desc VARCHAR(100),
+                        prod_stock INT(100)
                         );";
 
                 if(!mysqli_query($this->con, $sql)) {

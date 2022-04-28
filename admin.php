@@ -17,28 +17,47 @@
         <table class="table">
             <center><br> <br><h1> Admin </h1></center>
             <hr><br>
+
+            <!-- Retrieve Table from Database -->
+            <div class="col-md-7">
+                <div class="input-group mb-3">
+                    <form action="" method="GET">
+                        <input type="text" id="searchfield" name="search" value="<?php if(isset($_GET['search'])){echo $_GET['search'];} ?>" class="form-control" placeholder="Search item(s)">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-dark">Search</button>
+                            <button type="submit" class="btn btn-secondary" onclick="document.getElementById('searchfield').value = '';">✖</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
             <tr>
                 <th>Product Name</th>
                 <th>Product Price (₱)</th>
                 <th>Image URL</th>
                 <th>Product Description</th>
+                <th>Qty</th>
             </tr>
             <tbody>
                 <?php include 'php/read.php'; ?>
             </tbody>
         </table>
+
+        <!-- Add Data -->
         <br> <br>
         <h5> Add Entry </h5>
         <hr>
         <form class="form-inline m-2" action="php/add.php" method="POST">
             <label for="prod_name">Name:</label>
             <input type="text" class="form-control m-2" id="prod_name" name="prod_name">
-            <label for="prod_price">Price:</label>
+            <label for="prod_price">Price (₱):</label>
             <input type="number" class="form-control m-2" id="prod_price" name="prod_price">
             <label for="prod_image">Image URL:</label>
             <input type="text" class="form-control m-2" id="prod_image" name="prod_image">
             <label for="prod_desc">Description:</label>
             <input type="text" class="form-control m-2" id="prod_desc" name="prod_desc">
+            <label for="prod_stock">Stock Qty:</label>
+            <input type="number" class="form-control m-2" id="prod_stock" name="prod_stock">
             <center> <button type="submit" class="btn btn-primary" style="margin-top: 25px;">Submit</button> </center>
         </form>
     </div>

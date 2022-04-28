@@ -63,9 +63,10 @@ if(isset($_POST['addto'])) {
         <div class="row text-center py-5">
             <!-- Cards -->
             <?php
+            
             $result = $db->getData();
             while($row = mysqli_fetch_assoc($result)) {
-                component($row['id'], $row['prod_name'], $row['prod_price'], $row['prod_image'], $row['prod_desc']);
+                component($row['id'], $row['prod_name'], $row['prod_price'], $row['prod_image'], $row['prod_desc'], $row['prod_stock']);
             }
             ?>
         </div>
