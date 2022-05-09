@@ -185,3 +185,35 @@
 </body>
 
 </html>
+
+<?php
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+    $username = ($_POST['username']);
+    $password = ($_POST['password']);
+    $bool = true;
+    $db_name = "account_agno";
+    $db_username = "root";
+    $db_pass = "";
+    $db_host = "localhost";
+    $con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or die(mysqli_error()); //Connect to server
+    $query = "SELECT * from users";
+    $results = mysqli_query($con, $query); //Query the users table
+    while($row = mysqli_fetch_array($results)) //display all rows from query
+    {
+        $table_users = $row['username']; // the first username row is passed on to $table_users, and so on until the query is finished
+        if($username == $table_users) // checks if there are any matching fields
+        {
+        $bool = false; // sets bool to false
+        Print '<script>alert("Username has been taken!");</script>'; //Prompts the user
+        Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
+        }
+        }
+        if($bool) // checks if bool is true
+        {
+        mysqli_query($con, "INSERT INTO users (username, password) VALUES ('$username','$password')"); //Inserts the value to table users
+        Print '<script>alert("Successfully Registered!");</script>'; // Prompts the user
+        Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
+    }
+   }
+?>
