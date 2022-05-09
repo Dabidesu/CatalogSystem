@@ -3,9 +3,11 @@
 session_start();
 
 require_once("./php/createdb.php");
+require_once('./php/createuserdb.php');
 require_once("./php/component.php");
 
 $db = new createdb("catalogdb", "catalog");
+$db = new createuserdb("catalogdb", "users");
 
 if($_SESSION['user']){ //checks if user is logged in
     $user = $_SESSION['user']; //assigns user value
