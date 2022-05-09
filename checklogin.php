@@ -23,19 +23,25 @@ if($results != "") //IF there are no returning rows or no existing username
     $table_users = $row['username']; // the first username row is passed on to $table_users, and so on until the query is finished
     $table_password = $row['password']; // the first password row is passed on to $table_users, and so on until the query is finished
     }
-    echo $table_users. " & ". $table_password;
-    if(($username == $table_users) && ($password == $table_password)) // checks if there are any matching fields
-    {
-    if($password == $table_password)
-    {
-    $_SESSION['user'] = $username; //set the username in a session. This serves as a global variable
-    header("location: home.php"); // redirects the user to the authenticated home page
-    }
-    }
-    else
-    {
-    Print '<script>alert("Incorrect input!");</script>'; //Prompts the user
-    Print '<script>window.location.assign("login.php");</script>'; // redirects to login.php
+    //echo $table_users. " & ". $table_password;
+    
+    if(($table_users == "admin") && ($password == $table_password)) {
+        $_SESSION['admin'] = $username; //set the admin in a session. This serves as a global variable
+        header("location: admin.php"); // redirects the user to the authenticated home page 
+    } else {
+        if(($username == $table_users) && ($password == $table_password)) // checks if there are any matching fields
+        {
+            if($password == $table_password)
+            {
+            $_SESSION['user'] = $username; //set the username in a session. This serves as a global variable
+            header("location: home.php"); // redirects the user to the authenticated home page
+            }
+        }
+        else
+        {
+        Print '<script>alert("Incorrect input!");</script>'; //Prompts the user
+        Print '<script>window.location.assign("login.php");</script>'; // redirects to login.php
+        }
     }
 }
 else
