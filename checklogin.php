@@ -26,7 +26,7 @@ if($results != "") //IF there are no returning rows or no existing username
     //echo $table_users. " & ". $table_password;
     
     if(($table_users == "admin") && ($password == $table_password)) {
-        if($password == $table_password)
+        if($password == $table_password) {
             {
             $_SESSION['admin'] = $username; //set the admin in a session. This serves as a global variable
             header("location: home.php"); // redirects the user to the authenticated home page
@@ -37,7 +37,8 @@ if($results != "") //IF there are no returning rows or no existing username
         Print '<script>alert("Incorrect input!");</script>'; //Prompts the user
         Print '<script>window.location.assign("AdminLogin.php");</script>'; // redirects to AdminLogin.php
         } 
-    } else {
+    }
+    else {
         if(($username == $table_users) && ($password == $table_password)) // checks if there are any matching fields
         {
             if($password == $table_password)
