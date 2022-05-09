@@ -12,6 +12,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+    
+<?php
+session_start(); //starts the session
+if($_SESSION['admin']){ //checks if user is logged in
+}
+else{
+header("location: LandingPage.php"); // redirects if user is not logged in
+}
+$user = $_SESSION['admin']; //assigns user value
+?>
+    
 <body>
     <div class="container">
         <table class="table">
