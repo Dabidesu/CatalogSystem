@@ -7,6 +7,17 @@ require_once("./php/component.php");
 
 $db = new createdb("catalogdb", "catalog");
 
+if($_SESSION['user']){ //checks if user is logged in
+    $user = $_SESSION['user']; //assigns user value
+}
+else if($_SESSION['admin']){   
+    $user = $_SESSION['admin']; //assigns user value
+}
+else{
+header("location: LandingPage.php"); // redirects if user is not logged in
+}
+
+
 if (isset($_POST['remove'])) {
     //print_r($_GET['id']);
     if($_GET['action'] == 'remove') {
