@@ -5,6 +5,9 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+.env
+/node_modules
+
 # Dump file
 *.stackdump
 
