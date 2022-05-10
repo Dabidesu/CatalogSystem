@@ -29,7 +29,7 @@ if($results != "") //IF there are no returning rows or no existing username
         if($password == $table_password) {
             {
             $_SESSION['admin'] = $username; //set the admin in a session. This serves as a global variable
-            header("location: home.php"); // redirects the user to the authenticated home page
+            header("location: admin.php"); // redirects the user to the authenticated admin page
             }
         }
         else
@@ -44,19 +44,19 @@ if($results != "") //IF there are no returning rows or no existing username
             if($password == $table_password)
             {
             $_SESSION['user'] = $username; //set the username in a session. This serves as a global variable
-            header("location: home.php"); // redirects the user to the authenticated home page
+            header("location: LandingPage.php"); // redirects the user to the authenticated home page
             }
         }
         else
         {
         Print '<script>alert("Incorrect input!");</script>'; //Prompts the user
-        Print '<script>window.location.assign("login.php");</script>'; // redirects to login.php
+        Print '<script>window.location.assign("Userlogin.php");</script>'; // redirects to login.php
         }
     }
 }
 else
 {
     Print '<script>alert("Incorrect Username!");</script>'; //Prompts the user
-    Print '<script>window.location.assign("login.php");</script>'; // redirects to login.php
+    Print '<script>window.location.assign("UserLogin.php");</script>'; // redirects to login.php
 }
 ?>
