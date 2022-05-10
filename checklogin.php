@@ -5,7 +5,7 @@ $password = ($_POST['password']);
 //Debug Form Input
 echo $username. " and ". $password;
 
-$db_name = "account_agno";
+$db_name = "catalogdb";
 $db_username = "root";
 $db_pass = "";
 $db_host = "localhost";
