@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+//Clear Session Cache
+//session_destroy();
+
+require_once('./php/createuserdb.php');
+$db = new createuserdb("catalogdb", "users");
+
+?>
+
 <!DOCTYPE html>
 <html>
 
