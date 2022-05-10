@@ -143,7 +143,7 @@ $db = new createuserdb("catalogdb", "users");
                             <h5>Get started</h5>
                             <ul>
                                 <li><a href="LandingPage.php">Home</a></li>
-                                <li><a href="#">Catalog<br></a></li>
+                                <li><a href="index.php">Catalog<br></a></li>
                                 <li><a href="UserRegister.php">Sign Up</a></li>
                                 <li><a href="PromoPage.php">Promos/Other</a></li>
                             </ul>

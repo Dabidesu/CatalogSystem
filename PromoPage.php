@@ -49,7 +49,7 @@
                     <ul class="navbar-nav nav-right">
                         <li class="nav-item"><a class="nav-link active" href="LandingPage.html" style="color: rgba(224,217,217,0.9);">Home </a></li>
                         <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: rgba(224,217,217,0.9);">Catalog</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Mini PC</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Single-Board Computers</a></div>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="index.php" style="color: rgb(255,255,255);">Mini PC</a><a class="dropdown-item" href="index.php" style="color: rgb(255,255,255);">Single-Board Computers</a></div>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-gray-500);">PC Builder</a></li>
                         <li class="nav-item"><a class="nav-link" href="About.php" style="color: rgba(224,217,217,0.9);">About </a></li>
@@ -190,7 +190,7 @@
                             <h5>Get started</h5>
                             <ul>
                                 <li><a href="LandingPage.php">Home</a></li>
-                                <li><a href="#">Catalog<br></a></li>
+                                <li><a href="index.php">Catalog<br></a></li>
                                 <li><a href="UserRegister.php">Sign Up</a></li>
                                 <li><a href="PromoPage.php">Promos/Other</a></li>
                             </ul>
